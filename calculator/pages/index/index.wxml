@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="calc-screen">
+    <text>{{screen?screen:0}}</text>
+  </view>
+  <view class="calc-content">
+    <view class="item" catchtap="calcTap" data-opt="clear">
+      <text>AC</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="sign">
+      <text>+/-</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="surplus">
+      <text>%</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="divide">
+      <text>÷</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="seven">
+      <text>7</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="eight">
+      <text>8</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="nine">
+      <text>9</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="ride">
+      <text>×</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="four">
+      <text>4</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="five">
+      <text>5</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="six">
+      <text>6</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="reduce">
+      <text>－</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="one">
+      <text>1</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="two">
+      <text>2</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="three">
+      <text>3</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="plus">
+      <text>＋</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="zero">
+      <text>0</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="spot">
+      <text>.</text>
+    </view>
+    <view class="item" catchtap="calcTap" data-opt="equal">
+      <text>=</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .calc-screen{
+  width: 100%;
+  height: 25%;
+  background: #000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+}
+.container .calc-screen text{
+  color: #fff;
+  font-size: 100rpx;
+}
+.container .calc-content{
+  width: 100%;
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+.container .calc-content .item{
+  width: 25%;
+  padding: 64rpx 50rpx;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid #a4a4a4;
+  border-bottom: 1px solid #a4a4a4;
+  background: #d0d1d3;
+}
+.container .calc-content .item:nth-child(17){
+  flex-grow: 2;
+}
+.container .calc-content .item:nth-child(4n),
+.container .calc-content .item:last-child{
+  border-right: none;
+  background: #f99112;
+  color: white;
+}
+
+.container .calc-content .item:nth-child(17),
+.container .calc-content .item:nth-child(18),
+.container .calc-content .item:nth-child(19){
+  border-bottom: none;
+}
